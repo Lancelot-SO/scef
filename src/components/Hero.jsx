@@ -4,7 +4,7 @@
 // eslint-disable-next-line no-unused-vars
 import React, { useState } from "react";
 import "./Hero.css";
-import orphane from "../assets/poster.png";
+import orphane from "../assets/poster2.webp";
 import mobileorphane from "../assets/mobilescef.png";
 
 import circle from "../assets/circle.png";
@@ -129,7 +129,7 @@ const Hero = ({ activeLink }) => {
                     </div>
                     <div className="relative mt-12">
                         <img src={donate} alt="donate" className="w-[380px]" loading="lazy" />
-                        <div className="absolute top-[55px] left-[305px]">
+                        <div className="absolute top-[55px] small:left-[325px] left-[305px]">
                             <Link to='https://scef-international.org/become-godparent/' target="_blank" rel="noreferrer noopener" className="font-bold text-white text-[13px]">Donate</Link>
                         </div>
                         <div className="absolute top-[5px] left-[50px] ">

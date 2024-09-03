@@ -43,7 +43,7 @@ const Navigation = ({ activeLink, setActiveLink }) => {
                                         <li onClick={() => handleClick("about")} className="cursor-pointer"> <IoIosPerson size={20} /></li>
                                     )}
 
-                                    <li><Link to="https://maps.app.goo.gl/SCJtM59mEva5cvZTA" target="_blank" rel="noreferrer noopener" ><FaLocationDot size={20} /></Link></li>
+                                    <li><Link to="https://maps.app.goo.gl/WtjfPXW8wPCoK2vm7" target="_blank" rel="noreferrer noopener" ><FaLocationDot size={20} /></Link></li>
 
 
                                     <li><Link to="https://scef-international.org/" target="_blank" rel="noreferrer noopener"><IoGridSharp size={20} /></Link></li>
@@ -87,7 +87,7 @@ const Navigation = ({ activeLink, setActiveLink }) => {
                                 </li>
                                 <li>
                                     <NavLink
-                                        to="https://maps.app.goo.gl/SCJtM59mEva5cvZTA" target="_blank" rel="noreferrer noopener"
+                                        to="https://maps.app.goo.gl/WtjfPXW8wPCoK2vm7" target="_blank" rel="noreferrer noopener"
                                         className="flex items-center gap-2"
                                     >
                                         Location <FaLocationDot />
