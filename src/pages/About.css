@@ -1,0 +1,37 @@
+.about-herobg {
+    background: url("../assets/herobg2.png") no-repeat center center;
+    background-size: cover;
+    width: 90%;
+    height: 658px;
+    /* Adjust the height as needed */
+    position: relative;
+    overflow: hidden;
+    /* Ensures that overflow is hidden */
+}
+
+.about-mobilebg {
+    background: url("../assets/mainBg.png") no-repeat center center;
+    background-size: cover;
+    width: 100%;
+    height: 100vh;
+
+}
+
+.about-mainbg {
+    background: url("../assets/about-orphanes.jpg") no-repeat center center;
+    background-size: cover;
+}
+
+.mask-image {
+    object-fit: cover;
+    mask-image: url("../assets/herobg.png");
+    border-radius: 30px;
+    mask-size: cover;
+    mask-position: center;
+    mask-repeat: no-repeat;
+    -webkit-mask-image: url("../assets/herobg.png");
+    /* WebKit browsers */
+    -webkit-mask-size: cover;
+    -webkit-mask-position: center;
+    -webkit-mask-repeat: no-repeat;
+}
