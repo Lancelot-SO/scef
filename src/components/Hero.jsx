@@ -61,14 +61,14 @@ const Hero = ({ activeLink }) => {
                                     SOUND OF <b className="tracking-[20px]">FREEDOM</b>
                                 </h1>
                                 <div className="w-[302px] h-[120px]">
-                                    <p className="leading-[18px] text-[14px] text-white font-light">
+                                    <p className="leading-[18px] text-[14px] text-gray-700 font-light">
                                         Federal agent quits his job and rescues a boy from child traffickers but there’s more that takes him deep into the Columbian jungle, putting his life on the line.
                                     </p>
                                     <div className="flex gap-2 items-center text-white my-4">
                                         <FaRegCalendarDays className="text-[#F8B319]" />
-                                        <span className="">Sep 13,2024</span>
+                                        <span className="text-gray-700">Sep 13,2024</span>
                                         <ul className="list-disc list-inside">
-                                            <li>4pm</li>
+                                            <li className="text-gray-700">4pm</li>
                                         </ul>
                                     </div>
                                     <div className="flex gap-4">
