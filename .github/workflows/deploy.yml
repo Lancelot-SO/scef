@@ -27,8 +27,19 @@ jobs:
       - name: Zip the build folder
         run: zip -r build.zip dist
 
+      - name: Generate build hash
+        id: hash
+        run: echo "::set-output name=hash::$(git rev-parse --short HEAD)"
+
+      - name: Create build branch
+        run: |
+          git checkout -b build
+          git add .
+          git commit -m "Build $(date +'%Y-%m-%d') - ${{ steps.hash.outputs.hash }}"
+          git push origin build --force
+
       - name: Upload the build artifact
         uses: actions/upload-artifact@v3
         with:
-          name: build-artifact
+          name: build-artifact-${{ steps.hash.outputs.hash }}
           path: build.zip
