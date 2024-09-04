@@ -5,7 +5,7 @@ import orphane from "../assets/about-orphanes.jpg";
 import circle from "../assets/circle.png";
 import { FaHome } from "react-icons/fa";
 import { FaLocationDot } from "react-icons/fa6";
-import { GiTrophyCup } from "react-icons/gi";
+// import { GiTrophyCup } from "react-icons/gi";
 import { IoIosPerson } from "react-icons/io";
 import { IoGridSharp } from "react-icons/io5";
 import { Link } from "react-router-dom";
@@ -36,9 +36,6 @@ const About = ({ activeLink }) => {
                     <img src={orphane} alt="orphane" className="mask-image" />
                     <div className="">
                         <div className="">
-                            <div className="absolute top-[20px] left-[30px] flex gap-2 items-center text-white">
-                                <GiTrophyCup size={24} /> Awards
-                            </div>
                             <div className="absolute top-[130px] left-[30px] w-[700px]">
                                 <h1 className="text-[30px] text-[#F8B319] leading-[50px] tracking-[5px] font-bold">
                                     #FreeTheChildren Campaign
@@ -120,10 +117,10 @@ const About = ({ activeLink }) => {
                                 <div className="mt-16">
                                     <img src={donate} alt="donate" className="w-[380px]" />
                                 </div>
-                                <div className="absolute top-[570px] small:left-[345px] small:top-[560px] left-[312px] xsmall:left-[345px] xsmall:top-[560px] vsm:left-[325px]">
+                                <div className="absolute top-[570px] small:left-[345px] small:top-[560px] left-[312px] xsmall:left-[345px] xsmall:top-[560px] vsm:left-[325px] msm:left-[300px] msm:top-[585px]">
                                     <Link to='https://scef-international.org/become-godparent/' target="_blank" rel="noreferrer noopener" className="font-bold text-white text-[10px]">Donate</Link>
                                 </div>
-                                <div className="absolute top-[545px] left-[45px] ">
+                                <div className="absolute top-[545px] msm:top-[560px] msm:left-[31px] left-[45px] ">
                                     {/* <h2 className="font-bold text-white">Support a street-connected child</h2> */}
                                     <p className="text-[16px] w-[250px] text-white">
                                         Funds raised will support the fight against child trafficking and SCEF’s advocacy initiatives.

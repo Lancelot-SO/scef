@@ -10,7 +10,7 @@ import mobileorphane from "../assets/mobilescef.png";
 import circle from "../assets/circle.png";
 import { FaHome, FaPlayCircle } from "react-icons/fa";
 import { FaRegCalendarDays, FaLocationDot } from "react-icons/fa6";
-import { GiTrophyCup } from "react-icons/gi";
+// import { GiTrophyCup } from "react-icons/gi";
 import { IoIosPerson } from "react-icons/io";
 import { IoGridSharp } from "react-icons/io5";
 import { Link } from "react-router-dom";
@@ -53,9 +53,6 @@ const Hero = ({ activeLink }) => {
                     <img src={orphane} alt="orphane" className="masked-image" />
                     <div className="">
                         <div className="">
-                            <div className="absolute top-[20px] left-[30px] flex gap-2 items-center text-white">
-                                <GiTrophyCup size={24} /> Awards
-                            </div>
                             <div className="absolute top-[230px] left-[30px] w-[400px] h-[260px]">
                                 <h1 className="w-full h-[100px] text-[50px] text-black leading-[50px] tracking-[5px]">
                                     SOUND OF <b className="tracking-[20px]">FREEDOM</b>
@@ -131,7 +128,7 @@ const Hero = ({ activeLink }) => {
                         left-[305px] vsm:left-[320px] msm:top-[54px] msm:left-[292px]">
                             <Link to='https://scef-international.org/become-godparent/' target="_blank" rel="noreferrer noopener" className="font-bold text-white text-[13px]">Donate</Link>
                         </div>
-                        <div className="absolute top-[35px] left-[40px] ">
+                        <div className="absolute top-[35px] msm:left-[30px] left-[40px] ">
                             {/* <h2 className="font-bold text-white">Support a street-connected child</h2> */}
                             <p className="text-[16px] w-[250px] text-white">
                                 Funds raised will support the fight against child trafficking and SCEF’s advocacy initiatives.
