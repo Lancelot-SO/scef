@@ -15,7 +15,8 @@ export default {
       screens: {
         'msm': '360px',
         'xsm': '375px',
-        'vsm': '393px',
+        'vsm': '390px',
+        'xsmall': '414px',
         'small': '430px',
         'tablet': '570px',
         'md': '768px',

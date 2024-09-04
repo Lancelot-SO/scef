@@ -77,10 +77,10 @@ const About = ({ activeLink }) => {
                             <div className="absolute top-[570px] left-[325px]">
                                 <Link to='https://scef-international.org/become-godparent/' target="_blank" rel="noreferrer noopener" className="font-bold text-black text-[13px]">Donate</Link>
                             </div>
-                            <div className="absolute top-[520px] left-[50px] ">
-                                <h2 className="font-bold text-white">Support a street-connected child</h2>
-                                <p className="text-[12px] w-[250px] text-white">
-                                    This event, celebrating SCEF's 15th anniversary, will feature a powerful film screening followed by a panel discussion with child rights activists and community leaders.
+                            <div className="absolute top-[550px] left-[50px] ">
+                                {/* <h2 className="font-bold text-white">Support a street-connected child</h2> */}
+                                <p className="text-[16px] w-[250px] text-white">
+                                    Funds raised will support the fight against child trafficking and SCEF’s advocacy initiatives.
                                 </p>
                             </div>
                         </div>
@@ -120,13 +120,13 @@ const About = ({ activeLink }) => {
                                 <div className="mt-16">
                                     <img src={donate} alt="donate" className="w-[380px]" />
                                 </div>
-                                <div className="absolute top-[570px] left-[312px]">
+                                <div className="absolute top-[570px] small:left-[345px] small:top-[560px] left-[312px] xsmall:left-[345px] xsmall:top-[560px] vsm:left-[325px]">
                                     <Link to='https://scef-international.org/become-godparent/' target="_blank" rel="noreferrer noopener" className="font-bold text-white text-[10px]">Donate</Link>
                                 </div>
-                                <div className="absolute top-[530px] left-[53px] text-[12px]">
-                                    <h2 className="font-bold text-white">Support a street-connected child</h2>
-                                    <p className="w-[250px] text-white">
-                                        This event, celebrating SCEF's 15th anniversary, will feature a powerful film screening followed by a panel discussion with child rights activists and community leaders.
+                                <div className="absolute top-[545px] left-[45px] ">
+                                    {/* <h2 className="font-bold text-white">Support a street-connected child</h2> */}
+                                    <p className="text-[16px] w-[250px] text-white">
+                                        Funds raised will support the fight against child trafficking and SCEF’s advocacy initiatives.
                                     </p>
                                 </div>
                             </div>
