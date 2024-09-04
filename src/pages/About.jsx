@@ -78,7 +78,7 @@ const About = ({ activeLink }) => {
                                 <Link to='https://scef-international.org/become-godparent/' target="_blank" rel="noreferrer noopener" className="font-bold text-black text-[13px]">Donate</Link>
                             </div>
                             <div className="absolute top-[520px] left-[50px] ">
-                                <h2 className="font-bold text-white">Support a street-connected</h2>
+                                <h2 className="font-bold text-white">Support a street-connected child</h2>
                                 <p className="text-[12px] w-[250px] text-white">
                                     This event, celebrating SCEF's 15th anniversary, will feature a powerful film screening followed by a panel discussion with child rights activists and community leaders.
                                 </p>
@@ -124,7 +124,7 @@ const About = ({ activeLink }) => {
                                     <Link to='https://scef-international.org/become-godparent/' target="_blank" rel="noreferrer noopener" className="font-bold text-white text-[10px]">Donate</Link>
                                 </div>
                                 <div className="absolute top-[530px] left-[53px] text-[12px]">
-                                    <h2 className="font-bold text-white">Support a street-connected</h2>
+                                    <h2 className="font-bold text-white">Support a street-connected child</h2>
                                     <p className="w-[250px] text-white">
                                         This event, celebrating SCEF's 15th anniversary, will feature a powerful film screening followed by a panel discussion with child rights activists and community leaders.
                                     </p>
