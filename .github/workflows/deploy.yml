@@ -1,0 +1,50 @@
+# name: Build and Deploy React App
+
+# on:
+#   push:
+#     branches:
+#       - main
+
+# jobs:
+#   build:
+#     runs-on: ubuntu-latest
+
+#     steps:
+#       - name: Checkout code
+#         uses: actions/checkout@v3
+
+#       - name: Set up Node.js
+#         uses: actions/setup-node@v3
+#         with:
+#           node-version: '18'
+
+#       - name: Install dependencies
+#         run: npm install
+
+#       - name: Build the app
+#         run: npm run build
+
+#       - name: Zip the build folder
+#         run: zip -r build.zip dist
+
+#       - name: Generate build hash
+#         id: hash
+#         run: echo "::set-output name=hash::$(git rev-parse --short HEAD)"
+
+#       - name: Configure Git user
+#         run: |
+#           git config --global user.email "bundanaabdulhafiz@gmail.com"
+#           git config --global user.name "Bundana"
+
+#       - name: Create build branch
+#         run: |
+#           git checkout -b build
+#           git add .
+#           git commit -m "Build $(date +'%Y-%m-%d') - ${{ steps.hash.outputs.hash }}"
+#           git push origin build --force
+
+#       - name: Upload the build artifact
+#         uses: actions/upload-artifact@v3
+#         with:
+#           name: build-artifact-${{ steps.hash.outputs.hash }}
+#           path: build.zip
