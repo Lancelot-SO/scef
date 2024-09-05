@@ -91,7 +91,7 @@ const Hero = ({ activeLink }) => {
                                 <img src={donate} alt="donate" className="w-[380px]" loading="lazy" />
                             </div>
                             <div className="absolute top-[600px] left-[325px]">
-                                <Link to='https://scef-international.org/become-godparent/' target="_blank" rel="noreferrer noopener" className="font-bold text-black text-[13px]">Donate</Link>
+                                <Link to='https://paystack.com/pay/ap-scef' target="_blank" rel="noreferrer noopener" className="font-bold text-black text-[13px]">Donate</Link>
                             </div>
                             <div className="absolute top-[580px] left-[50px] ">
                                 {/* <h2 className="font-bold text-white">Support a street-connected child</h2> */}
@@ -126,7 +126,7 @@ const Hero = ({ activeLink }) => {
                         <img src={donate} alt="donate" className="w-[380px]" loading="lazy" />
                         <div className="absolute top-[55px] small:left-[325px] xsmall:left-[325px] xsmall:top-[57px]
                         left-[305px] vsm:left-[320px] msm:top-[54px] msm:left-[292px]">
-                            <Link to='https://scef-international.org/become-godparent/' target="_blank" rel="noreferrer noopener" className="font-bold text-white text-[13px]">Donate</Link>
+                            <Link to='https://paystack.com/pay/ap-scef' target="_blank" rel="noreferrer noopener" className="font-bold text-white text-[13px]">Donate</Link>
                         </div>
                         <div className="absolute top-[35px] msm:left-[30px] left-[40px] ">
                             {/* <h2 className="font-bold text-white">Support a street-connected child</h2> */}
