@@ -10,7 +10,7 @@ const VideoModal = ({ onClose }) => {
             <button className="close-button" onClick={onClose}>
                 <FaTimes size={30} />
             </button>
-            <iframe src="https://drive.google.com/file/d/1bgb1N-rnuNCR_ExhMZ7_Wm1C60h3SgJY/view?usp=sharing"
+            <iframe src="https://drive.google.com/file/d/12-iyivpWVZ2g7XhihvihYhZJAqfsVMrb/view?usp=sharing"
                 width="640" height="480" allow="autoplay; encrypted-media" allowfullscreen></iframe>
 
         </div>
