@@ -76,7 +76,7 @@ const Hero = ({ activeLink }) => {
                                             <FaPlayCircle /> WATCH TRAILER
                                         </div>
                                         <div className="bg-[#F8B319] w-[108px] h-[36px] shadow-MD rounded-[6px] flex items-center justify-center text-white">
-                                            <Link to='https://rb.gy/mvx2ah' target="_blank" rel="noreferrer noopener">BUY TICKET</Link>
+                                            <Link to='https://egtks.com/e/50702' target="_blank" rel="noreferrer noopener">BUY TICKET</Link>
                                         </div>
                                     </div>
                                 </div>

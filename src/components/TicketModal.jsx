@@ -13,7 +13,7 @@ const TicketModal = ({ onClose }) => {
                 <FaTimes size={30} />
             </button>
             <img src={ticketmodal} alt="modal" className="modal-image w-[350px] h-[680px]" loading="lazy" />
-            <Link to='https://rb.gy/mvx2ah' target="_blank" rel="noreferrer noopener" className="absolute top-[640px] w-[300px] opacity-0 bg-red-700 text-center">
+            <Link to='https://egtks.com/e/50702' target="_blank" rel="noreferrer noopener" className="absolute top-[640px] w-[300px] opacity-0 bg-red-700 text-center">
                 buy
             </Link>
         </div>
