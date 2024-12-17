@@ -63,9 +63,9 @@ const Hero = ({ activeLink }) => {
                                     </p>
                                     <div className="flex gap-2 items-center text-white my-4">
                                         <FaRegCalendarDays className="text-[#F8B319]" />
-                                        <span className="text-gray-700">Oct 18,2024</span>
+                                        <span className="text-gray-700">Dec 27,2024</span>
                                         <ul className="list-disc list-inside">
-                                            <li className="text-gray-700">4pm</li>
+                                            <li className="text-gray-700">5pm</li>
                                         </ul>
                                     </div>
                                     <div className="flex gap-4">

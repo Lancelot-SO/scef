@@ -87,7 +87,7 @@ const Navigation = ({ activeLink, setActiveLink }) => {
                                 </li>
                                 <li>
                                     <NavLink
-                                        to="https://maps.app.goo.gl/WtjfPXW8wPCoK2vm7" target="_blank" rel="noreferrer noopener"
+                                        to="https://maps.app.goo.gl/keMgLjiYYg8wag2HA" target="_blank" rel="noreferrer noopener"
                                         className="flex items-center gap-2"
                                     >
                                         Location <FaLocationDot />
